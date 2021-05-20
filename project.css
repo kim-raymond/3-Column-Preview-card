@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    max-width: 1440px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lexend Deca ;
+    background-color: hsl(0, 0%, 95%);
+}
+.cards{
+    height: 0;
+    min-height: 100vh;
+    display: flex;
+    order: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: start;
+    
+   
+}
+#card{
+    width: 163.3px;
+    height: 330px;
+    padding:30px 30px;
+  
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+.card2{
+    background-color: hsl(184, 100%, 22%); 
+}
+.card3{
+   background-color: hsl(179, 100%, 13%);
+   border-radius: 0 8px 8px 0 ;
+}
+h1{
+    text-transform: uppercase;
+    font-family: Big Shoulders Display;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: hsl(0, 0%, 95%);
+}p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+button{
+    font-weight: 400;
+    letter-spacing: .5px;
+    border: .2em hsl(0, 0%, 95%) solid;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin: 55px 0 0 0;
+    color: hsl(0, 0%, 95%);
+    background-color:transparent;
+}
+.btn1:hover{
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+}
+.btn2:hover{
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+.btn3:hover{
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
+.attribution { 
+    padding: 0 0 30px 0;
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media screen and (max-width: 585px){
+    .cards{
+        min-height: 1200px;
+        padding: 5px 0 ;
+    }
+    .content{
+    display: flex;
+    
+    }
+    .card1{
+        border-radius: 8px 8px 0 0;
+    }
+    .card3{
+        border-radius: 0 0 8px 8px ;
+    }
+}
